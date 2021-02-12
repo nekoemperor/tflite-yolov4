@@ -1,4 +1,5 @@
 # TFLite YOLOv4
+Modified TFLite Yolov4 detector for Thesis's purposes at my campus HTW Berlin
 
 DISCLAIMER: This repository is very similar to the repository: [yolov4-custom-functions](https://github.com/theAIGuysCode/yolov4-custom-functions). I created this repository to add a new feature to be implemented with my custom YOLOv4-tiny model, and they may worsen the overal speed of the application and make it not optimized in respect to time complexity.
 
