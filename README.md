@@ -6,3 +6,7 @@ The classes of the custom model are: Human Hand, Human Head and Box.
 The model name is yolov4-tiny3l-416-opt.tflite on checkpoints folder.
 
 The detector will show us how many objects of each class are being detected and also the "Warning" text if human hand and or human head is detected on the video or live webcam.
+
+### The Looks
+Check out how the detector looks like
+<p align="center"><img src="detections/detections2.png" width="320"\></p>
