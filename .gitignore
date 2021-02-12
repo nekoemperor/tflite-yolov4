@@ -1,0 +1,14 @@
+# checkpoints folder
+yolov4-tiny
+yolov4-tiny3l-416-opt
+
+# data folder
+helpers
+images
+test1.mp4
+test2.mp4
+test3.mp4
+test4.mp4
+
+# detections folder
+results.avi
