@@ -10,4 +10,4 @@ The detector will show us how many objects of each class are being detected and 
 
 ### The Looks
 Check out how the detector looks like
-<p align="center"><img src="detections/detection2.png" width="768"\></p>
+<p align="center"><img src="detections/detection3.png" width="768"\></p>
