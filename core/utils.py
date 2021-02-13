@@ -6,6 +6,7 @@ import tensorflow as tf
 import pytesseract
 from core.config import cfg
 import re
+import time
 
 # If you don't have tesseract executable in your PATH, include the following:
 # pytesseract.pytesseract.tesseract_cmd = r'<full_path_to_your_tesseract_executable>'
@@ -250,7 +251,6 @@ def draw_bbox(image, bboxes, info = False, counted_classes = None, show_label=Tr
 
             if info:
                 print("Object found: {}, Confidence: {:.2f}, BBox Coords (xmin, ymin, xmax, ymax): {}, {}, {}, {} ".format(class_name, score, coor[0], coor[1], coor[2], coor[3]))
-
             if show_label:
                 bbox_mess = '%s: %.2f' % (class_name, score)
                 t_size = cv2.getTextSize(bbox_mess, 0, fontScale, thickness=bbox_thick // 2)[0]
